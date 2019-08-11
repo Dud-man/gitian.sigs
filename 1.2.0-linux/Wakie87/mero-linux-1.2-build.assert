@@ -1,16 +1,16 @@
 --- !!omap
 - out_manifest: |
-    02c0b8bd42c158a54a45049e75e028867de53c95bf27edf02a31a855d000e07e  mero-1.2.0-aarch64-linux-gnu-debug.tar.gz
-    6831872a628da0f616274d2c8e67fbc43070fc8c357a00ef98650d2884b90067  mero-1.2.0-aarch64-linux-gnu.tar.gz
-    9481b0b2726816ba8f826c51b4b0dfc3d0cd84a0dc9cf4ef9a77b3b4bcb2bd7d  mero-1.2.0-arm-linux-gnueabihf-debug.tar.gz
-    1f4a18d9f4ac2571316fd9406dfabf9e962d67cad7aeebadbb8a31002b957b39  mero-1.2.0-arm-linux-gnueabihf.tar.gz
-    e0a19767262378d986b402e92024de5249f86a6a960bb9fee75536fe5455755c  mero-1.2.0-i686-pc-linux-gnu-debug.tar.gz
-    9fcf69a768e2e6e067374f70dd3570dabea7b3f15fd846ab558fef5f123458a3  mero-1.2.0-i686-pc-linux-gnu.tar.gz
-    8bc6b374b4989e22518ea4a18ab7cc8f0d290d7a431ee0bb3e802ba06944fca6  mero-1.2.0-x86_64-linux-gnu-debug.tar.gz
-    ac528f4792f9f998f434454a153d901013629454b668565b84053d80986e1c9b  mero-1.2.0-x86_64-linux-gnu.tar.gz
-    9e0e2dc30dd89b1a83c037e84bc7acbd930d7306e0923c4370b6c9480e56d5d5  src/mero-1.2.0.tar.gz
+    02c0b8bd42c158a54a45049e75e028867de53c95bf27edf02a31a855d000e07e  mero-2.0-aarch64-linux-gnu-debug.tar.gz
+    6831872a628da0f616274d2c8e67fbc43070fc8c357a00ef98650d2884b90067  mero-2.0-aarch64-linux-gnu.tar.gz
+    9481b0b2726816ba8f826c51b4b0dfc3d0cd84a0dc9cf4ef9a77b3b4bcb2bd7d  mero-2.0-arm-linux-gnueabihf-debug.tar.gz
+    1f4a18d9f4ac2571316fd9406dfabf9e962d67cad7aeebadbb8a31002b957b39  mero-2.0-arm-linux-gnueabihf.tar.gz
+    e0a19767262378d986b402e92024de5249f86a6a960bb9fee75536fe5455755c  mero-2.0-i686-pc-linux-gnu-debug.tar.gz
+    9fcf69a768e2e6e067374f70dd3570dabea7b3f15fd846ab558fef5f123458a3  mero-2.0-i686-pc-linux-gnu.tar.gz
+    8bc6b374b4989e22518ea4a18ab7cc8f0d290d7a431ee0bb3e802ba06944fca6  mero-2.0-x86_64-linux-gnu-debug.tar.gz
+    ac528f4792f9f998f434454a153d901013629454b668565b84053d80986e1c9b  mero-2.0-x86_64-linux-gnu.tar.gz
+    9e0e2dc30dd89b1a83c037e84bc7acbd930d7306e0923c4370b6c9480e56d5d5  src/mero-2.0.tar.gz
 - in_manifest: |-
-    3be91d09cc54b851fa8a5ffef1c27c622f51281ab138103ac357c1d3ea66518c  mero-linux-1.2-desc.yml
+    3be91d09cc54b851fa8a5ffef1c27c622f51281ab138103ac357c1d3ea66518c  mero-linux-2-desc.yml
     git:5c5df13ef79fc9d48830e1bb7c2c136592332d19 mero
 - base_manifests: !!omap
   - bionic-amd64: |
@@ -696,7 +696,7 @@
     93619e49557c12ebaa76e814c61c25a314ba8b84449d518a24a77a8f7b8e2441  x86_64-linux-gnu/zeromq/zeromq-4.1.5-19519911b9e.tar.gz.hash
     f38ce38aaa6733a840c15f354c7ab8dee40fbf99896cfa8fc9e27782dc4a3553  x86_64-linux-gnu/zlib/zlib-1.2.11-cc1040638d8.tar.gz
     c6bd97d7638b415fa37da7da12d69225c5c9349d9dac252ff3f489187d6146dc  x86_64-linux-gnu/zlib/zlib-1.2.11-cc1040638d8.tar.gz.hash
-- release: 1.2.0-linux
-- name: mero-linux-1.2
+- release: 2.0-linux
+- name: mero-linux-2.0
 - type: build
 - optionals: 
